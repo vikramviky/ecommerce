@@ -1,0 +1,61 @@
+.centeralign {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        margin: 0;
+     }
+     p {
+        margin: 0;
+    }
+    form {
+        margin: 3% 0;
+        button{
+                width: 200px;
+                border: none;
+                background: #D7202E;
+                margin: 2% 0;
+                padding: 1%;
+                color: #fff;
+                text-transform: uppercase;
+                border-radius: 4px;
+            }
+        .contact_details {
+            display: flex;
+            justify-content: center;
+            grid-gap: 13px;
+            gap: 13px;
+            margin: 1% 0;
+            input {
+                width: 220px;
+                border: #ffdead;
+                padding: 5px;
+            }
+        }
+        .comments {
+                textarea {
+                width: 100%;
+                height: 130px;
+                border: none;
+                padding: 9px;
+            }
+        }
+    }
+}
+
+.contentgrids {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4em;
+    margin: 3em 0;
+    .details.text-center {
+        h4{
+            margin: 0;
+        }
+        p{
+            margin: 0;
+        }
+    }
+}
